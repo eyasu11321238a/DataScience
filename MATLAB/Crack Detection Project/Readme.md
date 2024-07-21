@@ -1,4 +1,4 @@
-# 📘 Basic Crack Detector - README
+# 📘 Crack Detector @eyasu
 
 Welcome to the **Basic Crack Detector** project! This README will guide you through the setup, implementation, and usage of the crack detection system developed **Image Analysis and Object Recognition (IAOR)**
 
