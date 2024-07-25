@@ -40,7 +40,7 @@ We examined both true and fake news datasets, merging them for comprehensive mac
 
 The model must be capable of handling diverse news articles, accommodating various writing styles, languages, and formats. It should also adapt to evolving methods of presenting fake news over time.
 
-## Evaluation
+## 📝🔍 Evaluation
 
 The __performance__ of the model will be evaluated using standard classification metrics, such as precision, recall, and f1-score. The model will also be tested for its ability to generalize to unseen news articles.
 
@@ -51,9 +51,8 @@ The __performance__ of the model will be evaluated using standard classification
 * [__Classification Report__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)
 * [__Confusion Matrix__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
 
-## Outcomes
+## 🎯📈 Outcomes
 
 * Using machine learning for fake news classification can result in the creation of a model that can automatically identify fake news and flag it for further review or moderation. 
 * This can help to reduce the spread of __false__ or __misleading information__ and protect the integrity of online content.
 * In general, well-trained machine learning models can be effective at identifying fake news with a high degree of accuracy. 
-
