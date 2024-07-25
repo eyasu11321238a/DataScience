@@ -1,57 +1,33 @@
 # 🗞 Prediction of False Information
 
 [![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=darkgreen)](https://www.python.org)  [![](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white)](https://www.tensorflow.org) [![](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/stable/) [![](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org) [![](https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org)  [![](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com) [![](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white)](https://keras.io) 
-## Introduction
+📚 Introduction
+Fake news—or disinformation—is an escalating issue in our society today. It spreads rapidly through social media and other online channels, leading to confusion, distrust, and potential harm. To address this challenge, machine learning techniques for detecting fake news are becoming increasingly popular. However, identifying fake news is intricate and requires an understanding of the context, content, and intent of the information being shared.
 
-__Fake news__, or disinformation, is a growing problem in today's society. It can spread quickly through __social media__ and other online platforms, leading to confusion, mistrust, and even harm. In an effort to combat this issue, the use of __machine learning techniques__ for fake news detection has gained popularity. However, detecting fake news is a complex task that involves understanding the context, content, and intent of the information being shared.
+⚠️ Challenges
+Understanding and representing text data effectively for machine learning is crucial to reducing the spread of fake news. However, developing an end-to-end machine learning system to accurately predict fake news involves several challenges:
 
+📉 Lack of High-Quality Labeled Data: Limited availability of well-labeled datasets.
+🔄 Evolving Nature of Fake News: Fake news constantly changes and adapts.
+⚖️ Bias in the Data: Data may contain inherent biases.
+🌍 Limited Generalizability: Models may not perform well across different contexts.
+🤔 Ethical Considerations: Ensuring ethical use of data and algorithms.
+🔍 Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA) is essential for uncovering patterns and gaining insights from data. This process helps in making informed decisions and modifying data to better reflect real-world scenarios. Here’s how EDA was used in our project:
 
+📊 Fake News Detection: We analyzed the data to determine the amount of 'fake news' and classified texts accordingly.
+📅 Data Overview: The dataset includes a 'subject' category and 'date' field, revealing the topics and publication times of news articles.
+We examined both true and fake news datasets, merging them for comprehensive machine learning analysis.
 
-## Challenges
+🗳️ Political News Dominance: A significant portion of the data consists of political news, with world news being less prevalent.
+📉 Category Distribution: The dataset features categories like politics and left-news more frequently, while others like 'US_News', 'Government News', and 'Middle-east' are less common.
+⚖️ Balanced Dataset: Despite a higher number of fake news entries, the dataset appears balanced, negating the need for oversampling techniques.
+Wordcloud Analysis:
 
-There is a lot of text received by people in the form of __media__ and __news__. Understanding the text and giving it a vectorial representation before they could be used for machine learning reduces the spread of fake news. However, there are challenges that arise when trying to build an __end-to-end machine learning system__ which is capable of accurately predicting fake news. Below are some challenges that are faced for designing a fake news classifier:
-
-1. Lack of high-quality labeled data
-2. Evolving nature of fake news
-3. Bias in the data
-4. Limited generalizability
-5. Ethical considerations
-
-## Exploratory Data Analysis (EDA)
-
-__Exploratory Data Analysis (EDA)__ is a critical process that allows us to delve into data to uncover meaningful patterns and gain valuable insights. These insights can be instrumental in informing business decisions or enabling data modification to more accurately mirror real-world situations. EDA was employed specifically to discern the quantity of 'fake news' entries within the data. By first enumerating the topics of all articles, it laid the groundwork for classifying texts as either real or fake. Furthermore, the EDA process was crucial in identifying any missing values within the data set.
-
-We have successfully loaded a dataframe containing verified news stories. A preview of the first five entries in this data offers a glimpse into the type of information it houses. One notable feature is the 'subject' category, which provides insight into the topics of the news stories. Additionally, the dataframe includes a 'date' field, indicating when each news piece was originally published.
-
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/True%20news%20df.jpg"/>
-
-In a similar vein, we're keen on examining the dataset comprised of fake news. It appears to have similar columns to the true news dataset. For the purpose of conducting a comprehensive machine learning analysis, we plan to merge these two datasets together.
-
-
-
-A significant portion of our data is primarily made up of political news, with world news forming a smaller share. This distribution gives us a comprehensive understanding of the nature of our dataset, setting a solid foundation for our forthcoming machine learning analysis.
-
-
-
-Our dataset predominantly features news categories like politics and left-news. In contrast, categories such as 'US_News', 'Government News', and 'Middle-east' are underrepresented, appearing less frequently compared to the other topics.
-
-
-
-The majority of the entries in our dataset pertain to fake news, as compared to non-fake news. However, despite this disparity, the dataset appears to be fairly balanced. Consequently, there isn't a need to employ oversampling techniques to augment the number of samples from the underrepresented class.
-
-
-
-__True news wordcloud:__ Wordclouds offer a visual depiction of word frequencies within different text prompts. The larger the size of a word in the wordcloud, the greater its likelihood of occurrence. Our analysis reveals that a significant proportion of words in our dataset are centered around Trump, Hillary, and Obama. This observation aligns with our previous findings, indicating that a majority of our samples originate from political news sources.
-
-
-
-__Fake news wordcloud:__ The diagram presented below illustrates the frequency of words commonly associated with fake news. Notably, words like "say," "plan," and "Russian" are prevalent, often contributing to the falseness of such news articles. By examining this diagram, we can gain valuable insights into distinguishing between fake and genuine news based on the presence or absence of specific word patterns.
-
-
-
-## Constraints
-
-The model should be able to handle a diverse range of news articles, including those with different writing styles, language, and formats. It should also be able to adapt to changes in the way fake news is presented over time.
+📰 True News Wordcloud: Highlights the most frequent words in true news articles. Prominent terms include Trump, Hillary, and Obama, reflecting the political focus of the dataset.
+🚩 Fake News Wordcloud: Shows common words in fake news, such as "say," "plan," and "Russian," which often indicate falseness. This helps in distinguishing between fake and real news based on word patterns.
+🔧 Constraints
+The model must be capable of handling diverse news articles, accommodating various writing styles, languages, and formats. It should also adapt to evolving methods of presenting fake news over time.
 
 ## Evaluation
 
