@@ -1,4 +1,9 @@
-<h1 align="center">Hi 👋, I'm Eyasu Berhane Habte</h1>
+
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Eyasu+Berhane!;" />
+</h1>
+
+
 <h3 align="center"> I am Intereseted in Machine Learning, Data Scientist and NLP live in Germany</h3>
 
 <img align="center" alt="Coding" width="800" src="https://media3.giphy.com/media/iPj5oRtJzQGxwzuCKV/200.gif?cid=ecf05e47fivls6pcec6krda1um3ynzuy0fye1fnsrb7jgrli&ep=v1_gifs_related&rid=200.gif&ct=g">
