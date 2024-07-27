@@ -2,9 +2,21 @@
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Eyasu+Berhane!;" />
 </h1>
-
+<br/>
 
 <h3 align="center"> I am Intereseted in Machine Learning, Data Scientist and NLP live in Germany</h3>
+
+
+<div align="center"> 
+  <a href="mailto:eyasuberhanehabte@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
+  <a href="https://www.linkedin.com/in/eyasu-berhane-habte-920a5a197/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
+  </div>
+
+
 
 <img align="center" alt="Coding" width="800" src="https://media3.giphy.com/media/iPj5oRtJzQGxwzuCKV/200.gif?cid=ecf05e47fivls6pcec6krda1um3ynzuy0fye1fnsrb7jgrli&ep=v1_gifs_related&rid=200.gif&ct=g">
 
