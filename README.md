@@ -33,7 +33,11 @@
     <img src="https://skillicons.dev/icons?i=python,pandas,numpy,matplotlib,seaborn,r,mysql,sqlite,powerbi" />
     <img src="https://skillicons.dev/icons?i=scikit-learn,tensorflow,keras,pytorch,nltk,spacy,transformers,jupyter,vscode,github,git,docker" />
 </div>
-
+<br/>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=python,pandas,numpy,matplotlib,seaborn,r,mysql,sqlite,powerbi" />
+    <img src="https://skillicons.dev/icons?i=scikit-learn,tensorflow,keras,pytorch,nltk,spacy,transformers,jupyter,vscode,github,git,docker" />
+</div>
 
 
 
