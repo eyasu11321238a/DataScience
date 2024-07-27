@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Eyasu Berhane Habte</h1>
 <h3 align="center">A passionate Data Scientist in Germany</h3>
 
-<img align="right" alt="Coding" width="400" src="https://media3.giphy.com/media/iPj5oRtJzQGxwzuCKV/200.gif?cid=ecf05e47fivls6pcec6krda1um3ynzuy0fye1fnsrb7jgrli&ep=v1_gifs_related&rid=200.gif&ct=g">
+<img align="center" alt="Coding" width="400" src="https://media3.giphy.com/media/iPj5oRtJzQGxwzuCKV/200.gif?cid=ecf05e47fivls6pcec6krda1um3ynzuy0fye1fnsrb7jgrli&ep=v1_gifs_related&rid=200.gif&ct=g">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=eyasu11321238a&label=Profile%20views&color=0e75b6&style=flat" alt="eyasu11321238a" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=eyasu11321238a&label=Profile%20views&color=0e75b6&style=flat" alt="eyasu11321238a" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=eyasu11321238a" alt="eyasu11321238a" /></a> </p>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
