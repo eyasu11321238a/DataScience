@@ -1,4 +1,4 @@
-# Chatbot Development with Llama 2 Chat 7B
+# Chatbot Development with Llama 2 Chat 7B, 13B
 In my Machine Learning course, I developed a sophisticated chatbot leveraging the Llama 2 Chat 7B model. Here’s an overview of the key components and techniques used:
 
 - Chatbot Implementation: Utilized the Llama 2 Chat 7B model to power an advanced conversational agent.
